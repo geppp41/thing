@@ -1,4 +1,4 @@
-document.html.innerHTML = `
+document.head.innerHTML = `
 <style>
 #mydiv {
   position: absolute;
@@ -16,8 +16,8 @@ document.html.innerHTML = `
   color: #fff;
 }
 </style>
-<body>
-
+`
+document.body.innerHTML = `
 <h1>Draggable DIV Element</h1>
 
 <p>Click and hold the mouse button down while moving the DIV element</p>
@@ -74,6 +74,5 @@ function dragElement(elmnt) {
   }
 }
 </script>
-
-</body>
 `
+
