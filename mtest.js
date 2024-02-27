@@ -1,4 +1,4 @@
-document.body.innerHTML = `
+document.html.innerHTML = `
 <!DOCTYPE html>
 <html>
 <style>
