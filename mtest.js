@@ -1,6 +1,4 @@
 document.html.innerHTML = `
-<!DOCTYPE html>
-<html>
 <style>
 #mydiv {
   position: absolute;
@@ -78,5 +76,4 @@ function dragElement(elmnt) {
 </script>
 
 </body>
-</html>
 `
