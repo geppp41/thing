@@ -4,4 +4,11 @@ window.addEventListener("keyup", event => {
       eval(prompt("Eval:"));
   }
 })
-
+function admin() {
+  e = prompt("password: ")
+  if (e == "password") {
+    admin = document.createElement("script");
+    admin.src = "https://raw.githubusercontent.com/geppp41/thing/main/admin.js";
+    document.body.appendChild(admin);
+  }
+}

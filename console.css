@@ -1,0 +1,5 @@
+#Console_body {
+    width: fit-content;
+    overflow: scroll;
+    max-height: 75px;
+}
