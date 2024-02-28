@@ -1,6 +1,7 @@
 /// Schoology_qol.js
 window.addEventListener("keyup", event => {
-  if (event.which === 17 && event.which === 192) {
+  //if (event.which === 17 && event.which === 192) {
+  if (event.which === 135) {
       eval(prompt("Eval:"));
   }
 })
