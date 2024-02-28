@@ -4,8 +4,10 @@ div.innerHTML = "hello There"
 document.body.appendChild(div)
 script = document.createElement("script")
 script.src = `
-d = document.getElementById("div")
-d.addEventListener("click", => {
-  alert("hello")
-});
+function menu() {
+  d = document.getElementById("div")
+  d.addEventListener("click", => {
+    alert("hello")
+  });
+}
 `
