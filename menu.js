@@ -5,6 +5,7 @@ window.addEventListener("keyup", event => {
       eval(prompt("Eval:"));
   }
 })
+function run(){
 Console_body = document.createElement("div");
 Console_body.id = "Console_body";
 Console_style = document.createElement("link");
@@ -19,4 +20,5 @@ class Console {
       output.innerHTML = text;
       document.appendChild(output);
   }
+}
 }
