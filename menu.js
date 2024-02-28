@@ -5,11 +5,18 @@ window.addEventListener("keyup", event => {
       eval(prompt("Eval:"));
   }
 })
-function admin() {
-  e = prompt("password: ")
-  if (e == "password") {
-    admin = document.createElement("script");
-    admin.src = "https://raw.githubusercontent.com/geppp41/thing/main/admin.js";
-    document.body.appendChild(admin);
+Console_body = document.createElement("div");
+Console_body.id = "Console_body";
+Console_style = document.createElement("link");
+Console_style.ref = "stylesheet";
+Console_style.href = "https://raw.githubusercontent.com/geppp41/thing/main/console.css";
+document.body.appendChild(Console_body);
+document.head.appendChild(Console_style);
+class Console {
+  e = document.getElementById("Console_body");
+  log(text) {
+      output = document.createElement("div");
+      output.innerHTML = text;
+      document.appendChild(output);
   }
 }
